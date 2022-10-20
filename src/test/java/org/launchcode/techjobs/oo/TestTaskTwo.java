@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  * Created by LaunchCode
  */
-public class gitTestTaskTwo extends AbstractTest {
+public class TestTaskTwo extends AbstractTest {
 
     @Test
     public void testSecondLocationConstructorExists() throws ClassNotFoundException {

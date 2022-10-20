@@ -1,5 +1,8 @@
 package org.launchcode.techjobs.oo;
 
+/**
+ * Created by LaunchCode
+ */
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -69,6 +72,4 @@ public class AbstractTest {
         Class jobClass = getClassByName("Job");
         Method getIdMethod = jobClass.getMethod("getId");
         return (int) getIdMethod.invoke(job);
-    }
-
-}
+    }}

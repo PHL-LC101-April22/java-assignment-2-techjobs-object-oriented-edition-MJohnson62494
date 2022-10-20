@@ -28,7 +28,7 @@ public class TestTaskThree extends AbstractTest {
 
     }
 
-    @Test
+    @Tes
     public void testNoArgConstructorInitializesIdField () throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException {
         Class jobClass = getClassByName("Job");
         Constructor<Job> noArgConstructor = jobClass.getConstructor();
